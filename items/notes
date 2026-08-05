@@ -1,1 +1,13 @@
+datasheet controller https://www.st.com/en/evaluation-tools/nucleo-8s208rb.html#documentation
 datasheet for camera sensor https://www.uctronics.com/download/Datasheet/HM01B0-MWA-image-sensor-datasheet.pdf
+
+stm8 ref
+https://github.com/gkunalupta/STM8s_BareMetal_Firmwares/tree/master
+https://github.com/gicking/STM8_headers/blob/master/examples/I2C_LCD/i2c.c
+https://github.com/EMBEDONIX/stm8
+
+maybe switch to this board if stm32 is more common
+https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-F446RE/5347712
+
+esp32 reference
+https://github.com/artuppp/esp32-camera-new-I2C-API

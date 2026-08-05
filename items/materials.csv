@@ -1,0 +1,16 @@
+Digikey Item,What,Price,Amount,Total,Why,Link
+MFR-25FRF52-10K,RES 10K OHM 1% 1/4W AXIAL,$0.10,2,$0.20,Pull down resistor for speaker and microcontroller.,https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-10K/14626
+DFR0119,EVAL BOARD FOR PAM8403,$5.90,1,$5.90,Op amp for speaker. Microcontroller doesn’t gave enough output.,https://www.digikey.com/en/products/detail/dfrobot/DFR0119/6588490
+NUCLEO-8S208RB,NUCLEO-64 STM8S208RB EVAL BRD,$11.26,1,$11.26,General use microcontroller. Wanted a cheap STM microcontroller for large community support.,https://www.digikey.com/en/products/detail/stmicroelectronics/nucleo-8s208rb/9520179
+TC6FD00-04,SPEAKR 4.09OHM 15W TOP PT 81.6DB,$8.88,1,$8.88,Low impedence speaker.,https://www.digikey.com/en/products/detail/peerless-by-tymphany/TC6FD00-04/6211121
+SC0445,AC/DC WALL MNT ADAPTER 5.1V 15W,$8.00,1,$8.00,5V power source. Wall to m usb-c,https://www.digikey.com/en/products/detail/raspberry-pi/SC0445/10258760
+6077,SEWABLE USB TYPE C POWER JACK CO,$2.50,1,$2.50,F usb-c to wire leads. ,https://www.digikey.com/en/products/detail/adafruit-industries-llc/6077/25897269?s=N4IgjCBcoEwAwHYqgMZQGYEMA2BnApgDQgD2UA2iABwAsAbAgMw0gC6xADgC5QgDKXAE4BLAHYBzEAF8ZQA
+FIT0096,"BREADBRD TERM STRIP 3.20X2.00""",$2.90,1,$2.90,Breadboard because I don’t want to solder.,https://www.digikey.com/en/products/detail/dfrobot/FIT0096/7597069
+20-0696,SENSOR OPT 1080NM AMBIENT RADIAL,$1.93,1,$1.93,Cheapest light sensor that I don’t have to solder.,https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/20-0696/8037648
+KIT-ZW-20X3,"ZIPWIRE 20CM KIT M/M, M/F, F/F",$15.55,1,$15.55,Wires,https://www.digikey.com/en/products/detail/busboard-prototype-systems/KIT-ZW-20X3/19200354
+FIT0736,HOOK TEST CLIP(10 PACK),$7.90,1,$7.90,Yea,https://www.digikey.com/en/products/detail/dfrobot/FIT0736/13688354
+HM01B0-MNA-00FT870,HM01B0-MNA-00FT870,$12.33,1,$12.33,Camera (it suggests filtering capacitors on the datasheet),https://www.digikey.com/en/products/detail/himax/HM01B0-MNA-00FT870/14109821
+5055502420,CONN RCPT 24POS SMD GOLD,$0.62,1,$0.62,Camera connector,https://www.digikey.com/en/products/detail/molex/5055502420/10187049?s=N4IgTCBcDaIKwAY7IWALGBIC6BfIA
+,,,,,"For the most part, I picked the cheapest items in stock and wanted to minimize the amount of soldering I would need to do.",
+,,,,,,
+,,,,$77.97,,
