@@ -1,0 +1,5 @@
+CompileFlags:
+  Add: []
+  Remove: []
+  CompilationDatabase: ./build/Debug
+  Compiler: /home/harley/.eide/tools/bin/arm-none-eabi-gcc

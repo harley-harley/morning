@@ -20,3 +20,6 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -g3 -o target_output.elf main.c
 
 https://github.com/ObKo/stm32-cmake
 https://github.com/jasonyang-ee/STM32-CMAKE-TEMPLATE
+https://github.com/Sanj24Dev/bare-metal-programming-stm32/tree/main
+
+hmm https://github.com/Raghupathi762/Embedded_Systems_Wokwi_Projects_BareMetal_programing_-LED-PATTERNS-GPIO-
