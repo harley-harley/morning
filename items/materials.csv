@@ -1,8 +1,9 @@
 Digikey Item,What,Price,Amount,Total,Why,Link
 MFR-25FRF52-10K,RES 10K OHM 1% 1/4W AXIAL,$0.10,2,$0.20,Pull down resistor for speaker and microcontroller.,https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-10K/14626
 DFR0119,EVAL BOARD FOR PAM8403,$5.90,1,$5.90,Op amp for speaker. Microcontroller doesn’t gave enough output.,https://www.digikey.com/en/products/detail/dfrobot/DFR0119/6588490
-NUCLEO-8S208RB,NUCLEO-64 STM8S208RB EVAL BRD,$11.26,1,$11.26,General use microcontroller. Wanted a cheap STM32 microcontroller for large community support.,https://www.digikey.com/en/products/detail/stmicroelectronics/nucleo-8s208rb/9520179
-NUCLEO-F446RE,NUCLEO-64 STM32F446RE EVAL BRD,$18.82,1,$18.82,32 is more popular than 8,https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-F446RE/5347712
+NUCLEO-8S208RB,NUCLEO-64 STM8S208RB EVAL BRD,$11.26,0,$0.00,General use microcontroller. Wanted a cheap STM32 microcontroller for large community support.,https://www.digikey.com/en/products/detail/stmicroelectronics/nucleo-8s208rb/9520179
+NUCLEO-F446RE,NUCLEO-64 STM32F446RE EVAL BRD,$18.82,0,$0.00,32 is more popular than 8,https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-F446RE/5347712
+NUCLEO-H753ZI,NUCLEO-144 STM32H753ZI EVAL BRD,$40.81,1,$40.81,"Use this because it’s what I am simulating, but the code should theoretically work on the f4 board with some changes.",https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-H753ZI/21348937
 TC6FD00-04,SPEAKR 4.09OHM 15W TOP PT 81.6DB,$8.88,1,$8.88,Low impedence speaker.,https://www.digikey.com/en/products/detail/peerless-by-tymphany/TC6FD00-04/6211121
 SC0445,AC/DC WALL MNT ADAPTER 5.1V 15W,$8.00,1,$8.00,5V power source. Wall to m usb-c,https://www.digikey.com/en/products/detail/raspberry-pi/SC0445/10258760
 6077,SEWABLE USB TYPE C POWER JACK CO,$2.50,1,$2.50,F usb-c to wire leads. ,https://www.digikey.com/en/products/detail/adafruit-industries-llc/6077/25897269?s=N4IgjCBcoEwAwHYqgMZQGYEMA2BnApgDQgD2UA2iABwAsAbAgMw0gC6xADgC5QgDKXAE4BLAHYBzEAF8ZQA
@@ -17,4 +18,4 @@ C330C105K5R5TA,CAP CER 1UF 50V X7R RADIAL,$1.17100,20,$23.42,filtering capacitor
 X-NUCLEO-67W61M1,X-NUCLEO-67W61M1,$39.53,1,$39.53,bluetooth spi connector,https://www.digikey.com/en/products/detail/stmicroelectronics/X-NUCLEO-67W61M1/26639876
 ,,,,,"For the most part, I picked the cheapest items in stock and could also use for learning, and wanted to minimize the amount of soldering I would need to do.",
 ,,,,,,
-,,,,$96.79,,
+,,,,$107.52,,

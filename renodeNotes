@@ -1,0 +1,24 @@
+intialize machine
+include @platforms/boards/nucleo_h753zi.repl 
+
+load elf
+sysbus LoadELF @Projects/port/wakeUp/initialCopyPaste/build/initialCopyPaste.elf
+
+start
+start
+
+"stop"
+pause
+Clear
+
+
+onboard stuff
+
+sample log
+logLevel -1 gpioPortE.YellowLED
+
+sample monitor
+showAnalyzer sysbus.usart3
+
+sample button
+sysbus.gpioPortC.UserButton1 Press

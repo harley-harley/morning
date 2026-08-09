@@ -5,9 +5,12 @@ stm8 ref
 https://github.com/gkunalupta/STM8s_BareMetal_Firmwares/tree/master
 https://github.com/gicking/STM8_headers/blob/master/examples/I2C_LCD/i2c.c
 https://github.com/EMBEDONIX/stm8
-
-yes switch to this board cause stm32 is more common
+stm32 ref
 https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-F446RE/5347712
+
+
+use stm32h753 because renode
+https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-H753ZI/21348937
 
 esp32 reference
 https://github.com/artuppp/esp32-camera-new-I2C-API
@@ -16,10 +19,8 @@ consider using this screen and swap expansion board to uart if it gets too hard
 https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-FSW-FBW-3V3/2059236
 
 
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -g3 -o target_output.elf main.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -g3 -T STM32F446RETX_FLASH.ld -o target_output.elf Src/main.c Src/syscalls.c Src/sysmem.c Startup/startup_stm32f446retx.s
 
-https://github.com/ObKo/stm32-cmake
-https://github.com/jasonyang-ee/STM32-CMAKE-TEMPLATE
-https://github.com/Sanj24Dev/bare-metal-programming-stm32/tree/main
-
-hmm https://github.com/Raghupathi762/Embedded_Systems_Wokwi_Projects_BareMetal_programing_-LED-PATTERNS-GPIO-
+hmm
+https://github.com/Raghupathi762/Embedded_Systems_Wokwi_Projects_BareMetal_programing_-LED-PATTERNS-GPIO-
+https://github.com/Rohithsaji97/STM32_sample
