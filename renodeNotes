@@ -35,6 +35,10 @@ adcM1S2: Analog.STM32H7_ADC @ sysbus 0x40022000
 #define D2_AHB1PERIPH_BASE       (PERIPH_BASE + 0x00020000UL)
 #define PERIPH_BASE               (0x40000000UL) /*!< Base address of : AHB/APB Peripherals                                                   */
 # 40022300
-
 #define ADC1_BASE               (D2_AHB1PERIPH_BASE + 0x2000UL)
 #define ADC2_BASE               (D2_AHB1PERIPH_BASE + 0x2100UL)
+
+
+sample attaching EXISITING peripheral (temperature sensor) without adding new file
+machine LoadPlatformDescriptionFromString "tmp103: Sensors.TMP103 @ i2c1 0x70"
+sysbus.i2c1.tmp103 Temperature 30.0
