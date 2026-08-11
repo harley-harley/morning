@@ -15,3 +15,6 @@ https://github.com/pauloborges/blessed
 https://github.com/tinygo-org/bluetooth
 
 simulate through renode https://github.com/renode/renode
+
+Further reading
+https://github.com/stm32-rs/stm32h7xx-hal

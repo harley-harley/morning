@@ -24,3 +24,12 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -g3 -T STM32F446RETX_FLASH.ld -o t
 hmm
 https://github.com/Raghupathi762/Embedded_Systems_Wokwi_Projects_BareMetal_programing_-LED-PATTERNS-GPIO-
 https://github.com/Rohithsaji97/STM32_sample
+
+
+FOR SIMPLE NOW KEEP
+
+LIGHT SENSOR
+UART DISPLAY
+try this to follow video? https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C12832A1Z-FSW-FBW-3V3/2059236
+I2C CAMERA maybe ArduCAMMini2MPPlus
+https://github.com/renode/renode-infrastructure/blob/a6aee58e431204c6d0b065edae27f3f8708c05e6/src/Emulator/Peripherals/Peripherals/Sensors/ArduCAMMini2MPPlus.cs#L44

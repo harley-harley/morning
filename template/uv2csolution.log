@@ -1,0 +1,13 @@
+1 out of 1 target(s) converted
+
+Created solution: /home/harley/Projects/port/wakeUp/template/Blinky.csolution.yml
+
+With projects:
+
+- /home/harley/Projects/port/wakeUp/template/Blinky.cproject.yml
+
+Error: 0 error(s), 1 warning(s):
+
+Warnings:
+
+	Target name changed from 'NUCLEO-H743ZI' to 'NUCLEO_H743ZI'

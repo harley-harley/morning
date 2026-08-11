@@ -1,0 +1,80 @@
+project:
+  packs:
+    - pack: Keil::ARM_Compiler@^1.7.1
+    - pack: ARM::CMSIS@^5.8.0
+    - pack: Keil::NUCLEO-H743ZI_BSP@^2.0.0
+    - pack: Keil::STM32H7xx_DFP@^3.0.0
+    - pack: ARM::CMSIS-NN@^4.0.0
+    - pack: ARM::CMSIS-DSP@^1.10.1
+  setups:
+    - setup: Options for NUCLEO_H743ZI
+      processor:
+        fpu: sp
+      debug: "on"
+      misc:
+        - C:
+            - -std=c99
+          C-CPP:
+            - -fno-rtti
+            - -funsigned-char
+            - -fshort-enums
+            - -fshort-wchar
+            - -ffunction-sections
+            - -Wno-packed
+            - -Wno-missing-variable-declarations
+            - -Wno-missing-prototypes
+            - -Wno-missing-noreturn
+            - -Wno-sign-conversion
+            - -Wno-nonportable-include-path
+            - -Wno-reserved-id-macro
+            - -Wno-unused-macros
+            - -Wno-documentation-unknown-command
+            - -Wno-documentation
+            - -Wno-license-management
+            - -Wno-parentheses-equality
+          CPP:
+            - -xc++
+            - -std=c++11
+            - -fno-exceptions
+          ASM:
+            - -masm=auto
+          Link:
+            - --map
+            - --load_addr_map_info
+            - --xref
+            - --callgraph
+            - --symbols
+            - --info sizes
+            - --info totals
+            - --info unused
+            - --info veneers
+            - --any_placement=first_fit
+            - --strict
+            - --diag_suppress=6314
+            - --summary_stderr
+            - --info summarysizes
+  linker:
+    - script: stm32h743.sct
+  groups:
+    - group: App
+      files:
+        - file: Blinky.c
+    - group: Documentation
+      files:
+        - file: README.md
+  components:
+    - component: ARM::CMSIS:CORE
+    - component: ARM::CMSIS:RTOS2:Keil RTX5&Source
+    - component: Keil::Compiler&ARM Compiler:Event Recorder&DAP
+    - component: Keil::Board Support&NUCLEO-H743ZI:Drivers:Basic I/O
+    - component: Keil::CMSIS Driver:VIO:Board&NUCLEO-H743ZI
+    - component: Keil::Device:STM32Cube HAL:Common
+    - component: Keil::Device:STM32Cube HAL:Cortex
+    - component: Keil::Device:STM32Cube HAL:DMA
+    - component: Keil::Device:STM32Cube HAL:EXTI
+    - component: Keil::Device:STM32Cube HAL:GPIO
+    - component: Keil::Device:STM32Cube HAL:PWR
+    - component: Keil::Device:STM32Cube HAL:RCC
+    - component: Keil::Device:STM32Cube HAL:UART
+    - component: Keil::Device:Startup
+    - component: Keil::Device:STM32Cube Framework:STM32CubeMX
